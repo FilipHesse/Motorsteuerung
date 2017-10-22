@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1508334808 source:/home/pi/c++Projects/Motorsteuerung/main.cpp
+	<iostream>
+	"Motor.h"
+	"c_InputHandler.h"
+	<cstdio>
+	<memory>
+
+1508334065 /home/pi/c++Projects/Motorsteuerung/include/Motor.h
+
+1508333444 source:/home/pi/c++Projects/Motorsteuerung/src/Motor.cpp
+	<iostream>
+	"Motor.h"
+	<wiringPi.h>
+	<softPwm.h>
+
+1508334443 /home/pi/c++Projects/Motorsteuerung/include/c_InputHandler.h
+	<memory>
+	"Motor.h"
+
+1508334207 source:/home/pi/c++Projects/Motorsteuerung/src/c_InputHandler.cpp
+	"c_InputHandler.h"
+	<string>
+	<iostream>
+
